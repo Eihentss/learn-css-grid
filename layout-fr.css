@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(22, 175, 180);
+    margin: 0px;
+}
+.container{
+    margin: 0px;
+    width: 600px;
+    height: 300px;
+
+
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+}
+.item-1{
+    background-color: #e02d0d;
+}
+.item-2{
+    background-color: #0626db;
+}
+.item-3{
+    background-color: #169423;
+}
+
