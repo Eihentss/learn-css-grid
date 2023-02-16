@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(22, 175, 180);
+}
+.container{
+    margin: 0px;
+    background-color: rgb(28, 129, 245);
+    width: 600px;
+    height: 300px;
+
+
+
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    row-gap: 25px;
+    column-gap: 25px;
+}
+.item-1{
+    background-color: #40fef4;
+}
+.item-2{
+    background-color: #40fef4;
+}
+.item-3{
+    background-color: #40fef4;
+}
+.item-4{
+    background-color: #40fef4;
+}
+
+.item-5{
+    background-color: #40fef4;
+}
+.item-6{
+    background-color: #40fef4;
+}
+.item-7{
+    background-color: #40fef4;
+}
+.item-8{
+    background-color: #40fef4;
+}
+.item-9{
+    background-color: #40fef4;
+}
+.item-10{
+    background-color: #40fef4;
+}
+
