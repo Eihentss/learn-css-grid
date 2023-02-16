@@ -1,0 +1,72 @@
+*{
+  background-color: rgb(33, 159, 163);
+}
+
+.container {
+
+  width: 550px;
+  margin: 30px auto;
+
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+
+  row-gap: 30px;
+  column-gap: 50px;
+  grid-template-areas: 'left center right';
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.item--1 {
+  background-color: orange;
+  grid-area:  right;
+  position: relative;
+  bottom: 0px;
+  right: 0;
+}
+
+.item--2 {
+  background-color: green;
+  grid-area:  left;
+  position: relative;
+  bottom: -180px;
+  right: 0px;
+}
+
+.item--3 {
+  background-color: violet;
+  grid-area:  center;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+}
+
+.item--4 {
+  background-color: pink; 
+  grid-area:  left;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+}
+
+.item--5 {
+  background-color: blue;
+  grid-area:  right;
+  position: relative;
+  bottom: -180px;
+  right: 0px;
+}
+
+.item--6 {
+  background-color: brown;
+  grid-area:  center;
+  position: relative;
+  bottom: -180px;
+  right: 0px;
+}
